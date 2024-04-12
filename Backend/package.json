@@ -1,0 +1,20 @@
+{
+  "name": "pipe_line",
+  "version": "1.0.0",
+  "description": "Convert Data From CSV to MongoDB",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "CodesByKunal",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "moongose": "^1.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
